@@ -1,0 +1,181 @@
+nav
+{
+	background: #ccc;
+	height:50px;
+}
+
+#banner
+{
+	background: #777;
+	height:600px;
+}
+
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	float: right;
+}
+
+nav ul li, nav .logo
+{
+	display: inline-block;
+	line-height: 50px;
+	margin-right: 20px;
+}
+
+nav ul li a
+{
+	line-height: 50px;
+	text-decoration: none;
+	display:inline-block;
+	height:50px;
+	color: #fff;
+}
+
+nav .logo
+{
+	float: left;
+	margin-left: 30px;
+}
+
+
+#banner .inner
+{
+	max-width: 300px;
+	text-align: center;
+	margin:0 auto;
+	position: relative;
+	top:160px;
+}
+
+#banner .inner h1
+{
+	margin:0;
+}
+
+button
+{
+	color: #eee;
+	border:none;
+	background: #333;
+	
+}
+
+#banner button
+{
+	padding: 14px 40px;
+	font-size: 20px;
+	letter-spacing: 4px;
+	border-radius: 6px;
+	background: #18a;
+}
+
+#banner .inner .more
+{
+	margin-top: 150px;
+}
+
+.sub-heading
+{
+	line-height: 30px;
+	margin: 30px;
+	font-size: 18px;
+}
+
+.logo
+{
+	font-size: 20px;
+	font-weight: 700px;
+	letter-spacing: 1px;
+}
+
+.logo a
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+hr
+{
+	height: 2px;
+	width: 100%;
+	margin: 0px auto;
+	border: 0;
+	background: #fff;
+}
+
+.green-section
+{
+	text-align: center;
+	background: #089db0;
+	color: #fff;
+	padding: 100px 0;
+
+}
+
+.green-section hr
+{
+	background: #078494;
+	margin: 20px auto;
+	border: 0;
+	width: 60%;
+}
+
+.icon-group
+{
+	margin-top: 30px;
+}
+
+.green-section .icon-group .icon
+{
+	/*border:1px solid #0d6f7c;*/
+	background: #0d6f7c;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+	display: inline-block;
+	width: 80px;
+	height: 80px;
+	margin: 20px;
+
+}
+
+.wrapper
+{
+	max-width: 500px;
+	margin: 0 auto;
+}
+
+.image-section 
+{
+	max-width: 45%;
+}
+
+.image-section img
+{
+	max-width: 100%;
+}
+
+.text-section
+{
+	width: 55%;
+	position: relative;
+	top: 70px;
+}
+
+.text-section h2,.text-section p,.text-section h3
+{
+	margin-left: 50px;
+}
+
+.article-preview > div
+{
+	float:left;
+}
+
+.article-preview:after
+{
+	content: '';
+	display: block;
+	clear: both;
+}
